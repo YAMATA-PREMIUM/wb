@@ -1,9 +1,11 @@
 import React from 'react'
 
+// import React from 'react'  // ← удалить эту строку
+
 const STORE = {
   name: 'Название магазина',
   tagline: 'Тот самый магазин на Wildberries',
-  wbLink: 'https://www.wildberries.ru/seller/0000000', // замени на свою витрину
+  wbLink: 'https://www.wildberries.ru/seller/0000000',
   promo: 'Скидка -15% на первый заказ по промокоду WBHELLO',
   categories: ['Одежда', 'Аксессуары', 'Дом и кухня', 'Красота', 'Электроника'],
   phone: '+7 (999) 000-00-00',
@@ -11,6 +13,7 @@ const STORE = {
   tg: 'https://t.me/yourstore',
   vk: 'https://vk.com/yourstore',
 }
+
 
 export default function App() {
   return (
