@@ -1,7 +1,4 @@
-import React from 'react'
-
-// import React from 'react'  // ← удалить эту строку
-
+// src/App.tsx
 const STORE = {
   name: 'Название магазина',
   tagline: 'Тот самый магазин на Wildberries',
