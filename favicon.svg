@@ -1,0 +1,32 @@
+<!-- favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64">
+  <defs>
+    <!-- бирюзово-синий градиент бренда -->
+    <linearGradient id="g" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#0f3f72"/>
+      <stop offset="1" stop-color="#0f7f93"/>
+    </linearGradient>
+    <!-- мягкое внутреннее свечение -->
+    <radialGradient id="glow" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#9fffdc" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#9fffdc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- скруглённая плашка -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#g)"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="url(#glow)"/>
+
+  <!-- литерный знак "Y" -->
+  <g fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ствол -->
+    <path d="M32 16 L32 49"/>
+    <!-- рога -->
+    <path d="M18 16 L32 30 L46 16"/>
+  </g>
+
+  <!-- лёгкая обводка-свет -->
+  <g fill="none" stroke="#9fffdc" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 16 L32 30 L46 16"/>
+  </g>
+</svg>
