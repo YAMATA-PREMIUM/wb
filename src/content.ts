@@ -1,5 +1,5 @@
 export const LINKS = {
-  videoGuide: 'https://t.me/YAMATA_SUPPORTBOT',
+  videoGuide: 'https://t.me/YAMATAAA',
   wildberries: 'https://www.wildberries.ru/seller/250004094',
   telegram: 'https://t.me/YAMATAAA',
   max: 'MAX_URL',
